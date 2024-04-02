@@ -3,10 +3,11 @@ import './Testimonial.css';
 import { useRef } from 'react';
 import next_icon from '../../assets/next-icon.png';
 import back_icon from '../../assets/back-icon.png';
-import user1 from '../../assets/user-1.png';
-import user2 from '../../assets/user-2.png';
+import user1 from '../../assets/ayesha.png';
+
 import user3 from '../../assets/user-3.png';
 import user4 from '../../assets/user-4.png';
+import user5 from '../../assets/waqar_user1.jpg';
 
 const Testimonial = () => {
 const slider=useRef();
@@ -57,7 +58,7 @@ let tx=0;
             <li>
                 <div className='slide'>
                     <div className='user-info'>
-                        <img src={user2} alt=''/>
+                        <img src={user5} alt=''/>
                         <div>
                             <h3>Waqar Ahmad</h3>
                             <span>Edusity, USA</span>
