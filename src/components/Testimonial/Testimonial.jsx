@@ -3,7 +3,7 @@ import './Testimonial.css';
 import { useRef } from 'react';
 import next_icon from '../../assets/next-icon.png';
 import back_icon from '../../assets/back-icon.png';
-import user1 from '../../assets/ayesha.png';
+import user1 from '../../assets/user-1.png';
 
 import user3 from '../../assets/user-3.png';
 import user4 from '../../assets/user-4.png';
@@ -43,7 +43,7 @@ let tx=0;
                     <div className='user-info'>
                         <img src={user1} alt=''/>
                         <div>
-                            <h3>Ayesha Siddiqa</h3>
+                            <h3>Bella Hagde</h3>
                             <span>Edusity, USA</span>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ let tx=0;
                         <img src={user5} alt=''/>
                         <div>
                             <h3>Waqar Ahmad</h3>
-                            <span>Edusity, USA</span>
+                            <span>Edusity, Pakistan</span>
                         </div>
                     </div>
                     <p>
@@ -77,7 +77,7 @@ let tx=0;
                     <div className='user-info'>
                         <img src={user3} alt=''/>
                         <div>
-                            <h3>Mahnoor </h3>
+                            <h3>Alexa </h3>
                             <span>Edusity, USA</span>
                         </div>
                     </div>
